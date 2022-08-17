@@ -127,25 +127,3 @@ item.forEach((link) => {
         modals(e.target.name);
     });
 });
-
-
-// NYARI WIDTH HEIGHT
-let box = document.querySelector("#home");
-let style = getComputedStyle(box);
-
-let borderTopWidth = parseInt(style.borderTopWidth) || 0;
-let borderLeftWidth = parseInt(style.borderLeftWidth) || 0;
-let borderBottomWidth = parseInt(style.borderBottomWidth) || 0;
-let borderRightWidth = parseInt(style.borderRightWidth) || 0;
-
-let width =
-    window.innerWidth ||
-    document.documentElement.clientWidth ||
-    document.body.clientWidth;
-
-let height =
-    window.innerHeight ||
-    document.documentElement.clientHeight ||
-    document.body.clientHeight;
-
-console.log(`width:${width}, height:${height} `); //1462 494
