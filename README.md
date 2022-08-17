@@ -1,7 +1,7 @@
 # Ini Tugas Besar Kelompok 1 
 
 # Contribution
-  - Rafli Sodri \n 
+  - Rafli Sodri \
     html, css, algoritma
   - Maulana Husein
     html, css, js, github
