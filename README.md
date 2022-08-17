@@ -11,7 +11,7 @@
 
 # Documentation
   - Wireframe \
-  ![]{./assets/team.png}
+  ![](./assets/team.png)
   - Algoritma
   
 # Preview
