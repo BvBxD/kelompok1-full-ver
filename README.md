@@ -3,10 +3,10 @@
 # Contribution
   - Rafli Sodri \
     html, css, algoritma
-  - Maulana Husein
+  - Maulana Husein\
     html, css, js, github
-  - Shifa, Zain, Ratu
-    Wireframe, ppt, logo
+  - Shifa, Zain, Ratu\
+    Wireframe, ppt, logo\
   *Dikarenakan Alfiyah lagi sakit, jadi dia tidak ikut berkontribusi*
 
 # Documentation
