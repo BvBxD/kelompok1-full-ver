@@ -10,8 +10,8 @@
   *Dikarenakan Alfiyah lagi sakit, jadi dia tidak ikut berkontribusi*
 
 # Documentation
-  - Wireframe
-  ![]{assets/team.png}
+  - Wireframe \
+  ![]{./assets/team.png}
   - Algoritma
   
 # Preview
