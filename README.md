@@ -12,10 +12,12 @@
 # Documentation
   tinggal masukin ke sini
   - Wireframe \
+  
   - Algoritma \
   
+  
 # Preview
-  kaming sun
+  kaming sun \
   [KE WEBSITE](bvbxd.github.io/kelompok1-full-ver)
 
 # THANKS
