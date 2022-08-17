@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap"
+            rel="stylesheet"
+        />
+        <title>Document</title>
+    </head>
+    <body>
+        <nav>
+            <div class="wrapper">
+                <div class="logo"><a href=" ">PT KAGET CAHAYA ASIA </a></div>
+                <div class="menu">
+                    <ul>
+                        <li><div id="marker"></div></li>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#products">PRODUCTS</a></li>
+                        <li><a href="#profile">PROFILE</a></li>
+                        <li><a href="#contact">CONTACT US</a></li>
+                        <li>
+                            <button onclick="modals(1)" class="btn btn-merah">
+                                SIGN IN
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- MODAL -->
+        <div id="modalcoy" class="modalCont">
+            <div id="content" class="modal-content">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Eos laudantium perferendis neque perspiciatis architecto
+                    velit nam magnam numquam, quam unde in ratione aliquid illo
+                    commodi corporis provident facere quis molestiae!
+                </p>
+                <button id="close" class="btn btn-merah">keluar</button>
+            </div>
+        </div>
+        <!--HOME-->
+        <div class="wrapper">
+            <section id="home">
+                <img src="assets/team.png" width="550" />
+                <div class="kolom">
+                    <p class="deskripsi">PT KAGET CAHAYA ASIA</p>
+                    <br />
+                    <h2>SEDANG PROMO!!</h2>
+                    <p>
+                        Oh my, my, my (uh) oh my, my, my
+
+                        I've waited all my life
+                        
+                        Ne jeonbureul hamkkehago sipeo
+                        
+                        Oh my, my, my (yeah), oh my, my, my
+                        
+                        Looking for something right
+                        
+                        Ije jogeumeun na algesseo
+                    </p>
+                    <br /><br />
+
+                    <p>
+                        <button onclick="modals(2)" class="btn btn-biru">
+                            GET STARTED
+                        </button>
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <!--PRODUCTS-->
+
+        <h2 align="center">PRODUCTS</h2>
+        <div class="products" id="products">
+            <div class="cardContainer">
+                <div class="card">
+                    <img src="assets/card/rafly.jpeg" alt="laki" />
+                    <h3>RAFLI SODRI</h3>
+                    <h3>IT INFRASTRUCTURE</h3>
+                    <a href="https://www.instagram.com/raflisodri67 " class="button">SOCIAL MEDIA</a>
+                </div>
+                <div class="card">
+                    <img src="assets/card/husain.jpg" alt="laki" />
+                    <h3>Maulana Husein</h3>
+                    <h3>IT INFRASTRUCTURE</h3>
+                    <a href="https://www.instagram.com/maulhusen_" class="button">SOCIAL MEDIA</a>
+                </div>
+                <div class="card">
+                    <img src="assets/card/shifa.jpeg" alt="laki" />
+                    <h3>Shifa sulastri</h3>
+                    <h3>Digital Consultant</h3>
+                    <a href="https://instagram.com/shifaasulastrii" class="button">SOCIAL MEDIA</a>
+                </div>
+                <div class="card">
+                    <img src="assets/card/dahyun.jpeg" alt="gambar" />
+                    <h3>Ratu syifa</h3>
+                    <h3>Digital Consultant</h3>
+                    <a href="https://instagram.com/queenn_shaaa" class="button">SOCIAL MEDIA</a>
+                </div>
+                <div class="card">
+                    <img src="assets/card/alfiyah.jpeg" alt="gambar" />
+                    <h3>Alfiyah nur nabilah</h3>
+                    <h3>Digital Consultant</h3>
+                    <a href="https://www.instagram.com/alfiyahnrnblh_" class="button">SOCIAL MEDIA</a>
+                </div>
+                <div class="card">
+                    <img src="assets/card/zain.jpeg" alt="gambar" />
+                    <h3>Zain miftahul jannah</h3>
+                    <h3>Digital Consultant</h3>
+                    <a href="https://instagram.com/zainmj_" class="button">SOCIAL MEDIA</a>
+                </div>
+            </div>
+        </div>
+        <!--PROFILE-->
+        <div id="profile" class="tengah">
+            <div class="kolom">
+                <p class="deskripsi" align="center">ABOUT US</p>
+                <div style="vertical-align: middle; display: inline">
+                    <h2 style="text-align: center">
+                        <img
+                            style="vertical-align: middle"
+                            src="assets/Logo asia.jpg"
+                            width="100px"
+                            height="100px"
+                        /> PT KAGET CAHAYA ASIA
+                    </h2>
+                </div>
+                <p style="text-align: center">INI PERUSAHAAN KAMI</p>
+            </div>
+
+            <div class="partners-list">
+                <div class="kartu-partners">
+                    <img
+                        src="assets/Logo asia.jpg"
+                    />
+                    <p>PT KAGET CAHAYA ASIA</p>
+                </div>
+                <div class="kartu-partners">
+                    <img
+                        src="assets/Logo usa.jpg"
+                    />
+                    <p>PT KAGET CAHAYA USA</p>
+                </div>
+            </div>
+        </div>
+
+        <!--contact us-->
+        <div style="text-align: center">
+            <h2 id="contact">Contact Us</h2>
+            <p>Jika ada yang bisa kami bantu bisa hubungi kami:</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <img src="assets/cs.png" style="padding-left: 20%" />
+                </div>
+                <div class="column">
+                    <label for="fname">Name</label>
+                    <input
+                        type="text"
+                        id="fname"
+                        name="answe"
+                        placeholder="Your name.."
+                    />
+                    <label for="lname">Email</label>
+                    <input
+                        type="text"
+                        id="email"
+                        name="answe"
+                        placeholder="Your Email.."
+                    />
+                    <label for="country">Negara</label>
+                    <select id="country" name="answe">
+                        <option value="Australia">Australia</option>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Amrik">USA</option>
+                        <option value="Arab">Arabb</option>
+                        <option value="Turkey">Turkey</option>
+                        <option value="KOREA SELATAN">KOREA SELATAN</option>
+                    </select>
+                    <label for="subject">Subjek</label>
+                    <textarea
+                        id="subject"
+                        name="answe"
+                        placeholder="Write something.."
+                        style="height: 170px"
+                    ></textarea>
+                    <button onclick="modals(3)" class="btn btn-biru">
+                        Kirim!
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div
+            class="footer"
+            width="100%"
+            height="100px"
+            style="background-color: #ffe898; text-align: center"
+        >
+            <h1>KELOMPOK 1</h1>
+            <p>HUSEIN RAFLI SHIFA ZAIN RATU ALFIYAH</p>
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</html>
