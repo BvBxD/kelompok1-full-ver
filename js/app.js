@@ -116,6 +116,16 @@ window.onclick = function (e) {
 };
 
 // navbar animation
+let cont = document.getElementById("divCont");
+let allAnch = cont.getElementsByClassName("nav-link");
+for (let i = 0; i < allAnch.length; i++) {
+    allAnch[i].addEventListener("click", function () {
+        let current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace("active", "");
+        this.className += " active";
+    });
+}
+
 function indicator(e) {
     marker.style.left = e.offsetLeft + "px";
     marker.style.top = e.offsetTop + 30 + "px";

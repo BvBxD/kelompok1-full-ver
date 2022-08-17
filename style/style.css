@@ -83,6 +83,11 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+
+.nav-link.active, .nav-link:hover {
+    color: red;
+}
+
 .container {
     display: flex;
     margin: auto;
