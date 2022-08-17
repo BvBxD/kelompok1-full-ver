@@ -10,11 +10,12 @@
   *Dikarenakan Alfiyah lagi sakit, jadi dia tidak ikut berkontribusi*
 
 # Documentation
+  tinggal masukin ke sini
   - Wireframe \
-  ![](./assets/team.png)
-  - Algoritma
+  - Algoritma \
   
 # Preview
+  kaming sun
 
 # THANKS
 - ALLAH SWT
