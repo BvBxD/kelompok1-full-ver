@@ -12,6 +12,10 @@
     font-family: "DynaPuff", cursive;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -49,12 +53,13 @@ nav #marker {
     left: 0;
     height: 4px;
     width: 0;
-    background: #4ec5c1;
+    background: rgb(255, 0, 0);
     bottom: -8px;
     transition: 0.5s;
     border-radius: 4px;
     text-shadow: 2px 2px 8px #a9a9a9;
 }
+
 
 nav ul {
     list-style-type: none;
@@ -86,6 +91,7 @@ nav ul li a:hover {
 }
 #home {
     display: flex;
+    height: 700px;
 }
 
 #home .kolom {
@@ -100,15 +106,26 @@ nav ul li a:hover {
     color: #ffffff;
     cursor: pointer;
     font-weight: bold;
+    transition-duration: 0.4s;
 }
 .btn-merah {
     background-color: rgb(255, 0, 0);
 }
-.btn-biru {
+.btn-ungu {
     background-color: rgb(89, 0, 255);
     color: white;
 }
 
+.btn-merah:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(255, 0, 0);
+}
+.btn-ungu:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(89, 0, 255);
+}
 .kolom {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -177,6 +194,7 @@ h2 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 .kartu-partners {
@@ -262,6 +280,10 @@ input[type="submit"] {
     width: 80%;
 }
 
+#contact{
+    padding-top: 50px;
+}
+
 #tutup {
     color: #aaa;
     float: right;
@@ -274,3 +296,4 @@ input[type="submit"] {
     color: black;
     cursor: pointer;
 }
+

@@ -4,17 +4,6 @@ let formValues = document.getElementsByName("answe");
 
 let marker = document.querySelector("#marker");
 let item = document.querySelectorAll("nav a");
-function indicator(e) {
-    marker.style.left = e.offsetLeft + "px";
-    marker.style.top = e.offsetTop + 30 + "px";
-    marker.style.width = e.offsetWidth + "px";
-}
-item.forEach((link) => {
-    link.addEventListener("click", (e) => {
-        indicator(e.target);
-        modals(e.target.name);
-    });
-});
 
 function modals(num) {
     let content = document.getElementById("content");
@@ -29,7 +18,7 @@ function modals(num) {
                 type="text"
                 id="email"
                 name="answe"
-                placeholder="Your Email.."
+                placeholder="Emailnya kaka.."
             />
             <label for="subject">Password</label>
             <input
@@ -38,7 +27,7 @@ function modals(num) {
                 name="answe"
                 placeholder="Passwordnya kak.."
             ></input>
-            <button class="btn btn-biru">
+            <button class="btn btn-ungu">
                 Masuk!
             </button>`;
             modal.style.display = "block";
@@ -83,7 +72,7 @@ function modals(num) {
                 <option value="Arab">Arabb</option>
                 <option value="Turkey">Turkeyy</option>
             </select>
-            <button class="btn btn-biru">
+            <button class="btn btn-ungu">
                 Daftar!
             </button>`;
             modal.style.display = "block";
@@ -92,7 +81,7 @@ function modals(num) {
             // submit
             content.innerHTML = `
             <table>
-                <h2>Ini Data Yang elu Masukin!!!!</h2>
+                <h2>Ini Data Yang Di Masukan</h2>
                 <tr>
                     <td><strong>Nama</strong></td>
                     <td>:</td>
@@ -125,3 +114,38 @@ window.onclick = function (e) {
         modal.style.display = "none";
     }
 };
+
+// navbar animation
+function indicator(e) {
+    marker.style.left = e.offsetLeft + "px";
+    marker.style.top = e.offsetTop + 30 + "px";
+    marker.style.width = e.offsetWidth + "px";
+}
+item.forEach((link) => {
+    link.addEventListener("click", (e) => {
+        indicator(e.target);
+        modals(e.target.name);
+    });
+});
+
+
+// NYARI WIDTH HEIGHT
+let box = document.querySelector("#home");
+let style = getComputedStyle(box);
+
+let borderTopWidth = parseInt(style.borderTopWidth) || 0;
+let borderLeftWidth = parseInt(style.borderLeftWidth) || 0;
+let borderBottomWidth = parseInt(style.borderBottomWidth) || 0;
+let borderRightWidth = parseInt(style.borderRightWidth) || 0;
+
+let width =
+    window.innerWidth ||
+    document.documentElement.clientWidth ||
+    document.body.clientWidth;
+
+let height =
+    window.innerHeight ||
+    document.documentElement.clientHeight ||
+    document.body.clientHeight;
+
+console.log(`width:${width}, height:${height} `); //1462 494
