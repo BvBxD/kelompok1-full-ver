@@ -1,5 +1,5 @@
 # Ini Tugas Besar Kelompok 1 
-
+  Sebenernya udah jadi, tapi Saya belum masukin background ke webnya
 # Contribution
   - Rafli Sodri \
     html, css, algoritma
@@ -16,6 +16,7 @@
   
 # Preview
   kaming sun
+  [KE WEBSITE](bvbxd.github.io/kelompok1-full-ver)
 
 # THANKS
 - ALLAH SWT
