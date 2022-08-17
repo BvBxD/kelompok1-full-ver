@@ -1,5 +1,5 @@
 # Ini Tugas Besar Kelompok 1 
-  Sebenernya udah jadi, tapi Saya belum masukin background ke webnya
+  > Sebenernya udah jadi, tapi Saya belum masukin background, ganti title, pake favicon ke webnya
 # Contribution
   - Rafli Sodri \
     html, css, algoritma
