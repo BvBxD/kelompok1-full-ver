@@ -22,11 +22,5 @@
 
 # THANKS
 - ALLAH SWT
-- Github
-- Vscode
-- Figma
-- Draw.io
-- Canva
-- Balsamiq
-- StackOverFlow
-- W3school
+- Teman2 yang sudah membantu
+- Google 
