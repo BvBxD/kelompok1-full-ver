@@ -17,7 +17,6 @@
   
   
 # Preview
-  kaming sun \
   [KE WEBSITE](https://bvbxd.github.io/kelompok1-full-ver/)
 
 # THANKS
