@@ -11,6 +11,7 @@
 
 # Documentation
   - Wireframe
+  ![]{assets/team.png}
   - Algoritma
   
 # Preview
