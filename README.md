@@ -4,7 +4,7 @@
   - Rafli Sodri \
     html, css, algoritma
   - Maulana Husein\
-    html, css, js, github
+    html & css(sedikit), js, github
   - Shifa, Zain, Ratu\
     Wireframe, ppt, logo\
   *Dikarenakan Alfiyah lagi sakit, jadi dia tidak ikut berkontribusi*
