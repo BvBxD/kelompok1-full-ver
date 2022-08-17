@@ -11,9 +11,9 @@
 
 # Documentation
   tinggal masukin ke sini
-  - Wireframe \
+  - [WIREFRAME](wireframe.md)
   
-  - Algoritma \
+  - [ALGORITMA](algoritma.md)
   
   
 # Preview
