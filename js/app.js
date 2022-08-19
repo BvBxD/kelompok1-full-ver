@@ -5,6 +5,13 @@ let formValues = document.getElementsByName("answe");
 let marker = document.querySelector("#marker");
 let item = document.querySelectorAll("nav a");
 
+// pas pencet sembarang tempat (diluar modal/popup)
+window.onclick = function (e) {
+    if (e.target == modal) {
+        modal.style.display = "none";
+    }
+};
+
 function modals(num) {
     let content = document.getElementById("content");
     let no = parseInt(num);
@@ -107,13 +114,6 @@ function modals(num) {
             break;
     }
 }
-
-// pas pencet sembarang tempat (diluar modal/popup)
-window.onclick = function (e) {
-    if (e.target == modal) {
-        modal.style.display = "none";
-    }
-};
 
 // navbar animation
 let cont = document.getElementById("divCont");
