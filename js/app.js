@@ -131,6 +131,7 @@ function indicator(e) {
     marker.style.top = e.offsetTop + 30 + "px";
     marker.style.width = e.offsetWidth + "px";
 }
+
 item.forEach((link) => {
     link.addEventListener("click", (e) => {
         indicator(e.target);
